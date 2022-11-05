@@ -18,7 +18,6 @@ const client = new Client({
 
 client.commands = new Collection()
 client.aliases = new Collection()
-client.prefix = config.prefix
 client.config = require('./config.json');
 client.slashCommands = new Collection();
 module.exports = client;
