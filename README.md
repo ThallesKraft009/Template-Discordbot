@@ -15,7 +15,7 @@ Após fazer isso, inicie seu bot!
 
 # *Aqui estão algumas Bases de comandos.*
 
-**Comando em Prefixo** estão na pasta "commands/?/"!
+**Comando em Prefixo estão na pasta "commands/?/"!**
 ```js
 const { EmbedBuilder } = require('discord.js');
 
@@ -37,7 +37,7 @@ module.exports = {
 };
 ```
 
-*Agora, a base de SlashCommands que estão na pasta "slashCommands/?/".
+**Agora, a base de SlashCommands que estão na pasta "slashCommands/?/".**
 
 ```js
 const { ApplicationCommandType, ApplicationCommandOptionType } = require('discord.js');
