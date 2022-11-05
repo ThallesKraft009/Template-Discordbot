@@ -1,4 +1,6 @@
 {
    "token": "Seu Token",
-   "prefixo": "Seu prefixo"
+   "prefixo": "Seu prefixo",
+   "botid": "Id do seu bot",
+   "guildid": "Id do servidor a ser criado os SlashCommands"
 }
