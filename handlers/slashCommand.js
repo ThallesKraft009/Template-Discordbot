@@ -58,7 +58,7 @@ const CLIENT_ID = client.config.botid;
 
 
 				await rest.put(
-	client.config.GUILD_ID ?
+	client.config.guildid ?
 					Routes.applicationGuildCommands(CLIENT_ID, client.config.guildid) :
 				
 					Routes.applicationCommands(CLIENT_ID), 
