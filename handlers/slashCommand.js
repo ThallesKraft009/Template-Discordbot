@@ -31,7 +31,7 @@ const CLIENT_ID = client.config.botid;
 				slashCommands.push({
 					name: slashCommand.name,
 					description: slashCommand.description,
-description_localizations: slashCommand.description_localizations,
+                                        description_localizations: slashCommand.description_localizations,
 					type: slashCommand.type,
 					options: slashCommand.options ? slashCommand.options : null,
 					default_permission: slashCommand.default_permission ? slashCommand.default_permission : null,
