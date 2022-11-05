@@ -59,7 +59,7 @@ description_localizations: slashCommand.description_localizations,
 
 				await rest.put(
 	client.config.GUILD_ID ?
-					Routes.applicationGuildCommands(CLIENT_ID, client.config.GUILD_ID) :
+					Routes.applicationGuildCommands(CLIENT_ID, client.config.guildid) :
 				
 					Routes.applicationCommands(CLIENT_ID), 
 					{ body: slashCommands }
