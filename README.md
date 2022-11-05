@@ -13,3 +13,53 @@ Coloque as informações necessárias no arquivo "config.json".
 
 Após fazer isso, inicie seu bot!
 
+# *Aqui estão algumas Bases de comandos.*
+
+**Comando em Prefixo** estão na pasta "commands/?/"!
+```js
+const { EmbedBuilder } = require('discord.js');
+
+module.exports = {
+    name: '',
+    aliases: [''],
+    description: "",
+    usage: '',
+    category: '',
+    cooldown: 5000,
+      userPerms: [''],
+      botPerms: [''],
+
+    run: async (client, message, args) => {
+        
+//Código.
+    
+    }
+};
+```
+
+*Agora, a base de SlashCommands que estão na pasta "slashCommands/?/".
+
+```js
+const { ApplicationCommandType, ApplicationCommandOptionType } = require('discord.js');
+
+module.exports = {
+    name: '',
+    description: "",
+    description_localizations: ({
+      'en-US': '',
+      'pt-BR': '',
+      'es-ES': ''
+  }),
+    type: ApplicationCommandType.ChatInput,
+    cooldown: 3000,
+    default_member_permissions: '',
+  
+    run: async (client, interaction) => {
+
+//Código.
+      
+    }
+};
+```
+
+Lembre de dá os créditos!
