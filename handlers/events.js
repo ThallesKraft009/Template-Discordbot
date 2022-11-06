@@ -1,5 +1,5 @@
 const fs = require('fs');
-const chalk = require('chalk')
+const chalk = require('colors')
 var AsciiTable = require('ascii-table')
 var table = new AsciiTable()
 table.setHeading('Eventos', 'Status')
@@ -10,5 +10,5 @@ module.exports = (client) => {
       	require(`../events/${event}`);
 table.addRow(event.split('.js')[0], '✅')
     })
-	console.log(chalk.greenBright(table.toString()))
+	console.log(chalk.green(table.toString()))
 };
