@@ -1,4 +1,4 @@
-const chalk = require('chalk')
+const chalk = require('colors')
 const fs = require('fs');
 var AsciiTable = require('ascii-table')
 var table = new AsciiTable()
@@ -27,5 +27,5 @@ module.exports = (client) => {
             }
         })
     })
-    console.log(chalk.blueBright(table.toString()))
+    console.log(chalk.blue(table.toString()))
 }
