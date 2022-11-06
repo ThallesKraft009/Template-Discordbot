@@ -1,5 +1,5 @@
 const fs = require('fs');
-const chalk = require('chalk');
+const chalk = require('colors');
 
 const { PermissionsBitField } = require('discord.js');
 const { Routes } = require('discord-api-types/v9');
@@ -13,9 +13,11 @@ const table = new AsciiTable().setHeading('Slash Commands', 'Status').setBorder(
 
 const rest = new REST({ version: '9' }).setToken(TOKEN);
 
+const TOKEN = "";
+
+
 module.exports = (client) => {
 
-const TOKEN = client.config.token;
 
   
 const CLIENT_ID = client.config.botid;
