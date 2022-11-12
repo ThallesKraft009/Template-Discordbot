@@ -1,5 +1,5 @@
 const client = require('..')
-const chalk = require('chalk')
+const chalk = require('colors')
 const { version } = require("discord.js")
 const Discord = require("discord.js");
 
