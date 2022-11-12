@@ -11,6 +11,12 @@ Coloque as informações necessárias no arquivo "config.json".
 }
 ```
 
+Outro lugar pra colocar o token é no arquivo handler/slashCommand.js
+
+```js
+const TOKEN = `Seu token aqui`;
+```
+
 Após fazer isso, inicie seu bot!
 
 # *Aqui estão algumas Bases de comandos.*
