@@ -9,11 +9,13 @@ const AsciiTable = require('ascii-table');
 const table = new AsciiTable().setHeading('Slash Commands', 'Status').setBorder('|', '=', "0", "0")
 
 
+//-------------TOKEN
 
+const TOKEN = "Seu token aqui";
 
 const rest = new REST({ version: '9' }).setToken(TOKEN);
 
-const TOKEN = "Seu token aqui";
+
 
 
 module.exports = (client) => {
