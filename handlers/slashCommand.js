@@ -13,7 +13,7 @@ const table = new AsciiTable().setHeading('Slash Commands', 'Status').setBorder(
 
 const rest = new REST({ version: '9' }).setToken(TOKEN);
 
-const TOKEN = "";
+const TOKEN = "Seu token aqui";
 
 
 module.exports = (client) => {
