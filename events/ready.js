@@ -16,8 +16,8 @@ client.on("ready", () => {
   
 
 const activities = [
-	{ name: "Nodejs: ${process.version}, Discordjs: ${Discord.version}", type: 0 }, 
-	{ name: "De olho em ${client.users.cache.size} Usuários 👀", type: 0 },
+	{ name: `Nodejs: ${process.version}, Discordjs: ${Discord.version}`, type: 0 }, 
+	{ name: `De olho em ${client.users.cache.size} Usuários 👀`, type: 0 },
 ];
 
 const status = [
